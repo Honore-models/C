@@ -1,9 +1,11 @@
 #include<stdio.h>
-
+#include<string.h>
 int main(){
 
+    char home[10]= "kayonza";
 
-
+    int *ptr = malloc(5 * sizeof(int));
+    char *name = malloc(strlen(home) + 1);
 
 return 0;
 }
