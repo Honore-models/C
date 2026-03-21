@@ -3,7 +3,7 @@
 
 int main(){
 
-    char name[10] = "ronore";
+    char name[10] = "honore";
     char set[10] = "onh";
     int count;
 
