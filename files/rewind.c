@@ -4,14 +4,15 @@
 int main(){
 
     int c;
-    char profile[30] = "I am a student";
     printf("Enter a text: ");
-    for(int i=1; i<15; i++){
+
+    for(int i=1; i<=4; i++){
         c = fgetc(stdin);
         printf("%c",c);
     }
 
-    printf("%c",c);
+
+    printf("%c",c+1);
 
 return 0;
 }
