@@ -11,7 +11,7 @@ int main()
     scanf("%[honore]", name);
     printf(name);
 
-    return 0;
+    return 0; 
 }
 
 // By default %s escapes the spaces , when you have the spaces in your input it stops when it reaches it.
