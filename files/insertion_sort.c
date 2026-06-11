@@ -24,17 +24,15 @@ void printArray(int arr[], int n) {
 }
 
 
-
 int main(){
 
-    int arr[] = {5, 2, 9, 1, 5, 6};
+    int arr[] = {5,2,9,1,5,6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     insertionSort(arr, n);
 
     printf("Sorted array: ");
     printArray(arr, n);
-
 
  return 0;
 }
